@@ -5,6 +5,6 @@ CREATE TABLE usuariodoador (
     nome VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL UNIQUE,
     senha VARCHAR(255) NOT NULL,
-    imagem VARCHAR(255) DEFAULT 'C:/padrao.png'
+    imagem VARCHAR(255) DEFAULT 'perfil_logado.png'
 );
 
