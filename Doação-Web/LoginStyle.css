@@ -42,7 +42,7 @@ body {
     background-color: #ffffffc0;
 }
 
-.form-group button::before {
+.form-group button {
     width: 100%;
     padding: 10px;
     background-color: #015630c5;
@@ -52,25 +52,6 @@ body {
     cursor: pointer;
 }
 
-.form-group button:active {
-    width: 100%;
-    padding: 10px;
-    background-color: #015630c5;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.form-group button::after {
-    width: 100%;
-    padding: 10px;
-    background-color: #015630c5;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
 
 .form-group button:hover {
     background-color: #242424ce;
